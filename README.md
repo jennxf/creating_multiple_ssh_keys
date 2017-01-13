@@ -1,5 +1,5 @@
 # creating_multiple_ssh_keys
-guide on how to generate multiple ssh keys and adding to github
+#### guide on how to generate multiple ssh keys and adding to github
 
  ### Generate the ssh key-pairs and add in `-f` to state the name and location of the file
  ssh-keygen -t rsa -b 4096 -C "jennxf.ng@gmail.com" -f ~/.ssh/id_rsa_name
