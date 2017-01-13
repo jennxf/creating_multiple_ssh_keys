@@ -3,7 +3,7 @@
  - guide on how to generate multiple ssh keys and adding to github
 
 ### Generate the ssh key-pairs and add in `-f` to state the name and location of the file
- ssh-keygen -t rsa -b 4096 -C "jennxf.ng@gmail.com" -f ~/.ssh/id_rsa_name
+ ssh-keygen -t rsa -b 4096 -C "youremail@gmail.com" -f ~/.ssh/id_rsa_name
 
 ### start the ssh-agent in the background if it's not already running
 eval "$(ssh-agent -s)"
