@@ -18,3 +18,7 @@ pbcopy < ~/.ssh/id_rsa_name.pub
 https://github.com/settings/keys
 
 ### Done
+
+### if you still see the error:
+do again:
+ssh-add ~/.ssh/id_rsa_n
